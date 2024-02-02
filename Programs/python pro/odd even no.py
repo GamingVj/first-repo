@@ -6,11 +6,11 @@ print("\nEVEN NUMBER\n")
 # for printing output of even numbers -->
 # if condition 
 if a % 2 == 0:
-    for ab in range (a, b, 2):
+    for ab in range(a, b, 2):
         print(ab)
 # else condition
 else:
-    for ab in range (a-1, b, 2):
+    for ab in range(a-1, b, 2):
         print(ab)
 
 print("\nODD NUMBERS\n")
