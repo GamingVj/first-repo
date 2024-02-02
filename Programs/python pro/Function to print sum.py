@@ -25,5 +25,5 @@ c = int(input("Enter the 3rd value out of 3\n-->"))
 
 # creating a dictionary with  key value pairs
 
-mydict = {'a': a,'b': b,'c': c}
+mydict = {'a': a, 'b': b, 'c': c}
 print("Sum :", return_sum(mydict))
