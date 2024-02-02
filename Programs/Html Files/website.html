@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Code Snippets</title>
+    <style>
+        pre {
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 20px 0;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Code Snippets</h1>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.0/styles/default.min.css">
+
+    <h2>Python</h2>
+    <pre><code class="python">
+       # \n is use to exec in new line
+       a=int(input("Enter the Starting Number\n-->"))
+       b=int(input("Enter the Ending Number\n-->"))
+       
+       print("\nEVEN NUMBER\n")
+       # for printing output of even numbers -->
+       # if condition 
+       if a%2==0:
+           for ab in range (a,b,2):
+               print(ab)
+       # else condition
+       else:
+           for ab in range (a-1,b,2):
+               print(ab)
+       
+       print("\nODD NUMBERS\n")
+       # for printing output of odd numbers -->
+       # if condition
+       if a%2==0:
+           # for condition
+           for i in range (a-1,b,2):
+               print(i)
+       # else condition
+       else:
+           for j in range(a,b,2):
+               print(j) 
+    </code></pre>
+
+    <h2>HTML Links</h2>
+    <pre>
+        &lt;a href="https://www.example.com"&gt;Visit Example.com&lt;/a&gt;
+    </pre>
+
+    <h2>HTML Images</h2>
+    <pre>
+        &lt;img src="image.jpg" alt="Image Description"&gt;
+    </pre>
+
+    <h2>HTML Lists</h2>
+    <pre>
+        &lt;ul&gt;
+            &lt;li&gt;Item 1&lt;/li&gt;
+            &lt;li&gt;Item 2&lt;/li&gt;
+            &lt;li&gt;Item 3&lt;/li&gt;
+        &lt;/ul&gt;
+    </pre>
+
+    <h2>HTML Tables</h2>
+    <pre>
+        &lt;table&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Header 1&lt;/th&gt;
+                &lt;th&gt;Header 2&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Row 1, Col 1&lt;/td&gt;
+                &lt;td&gt;Row 1, Col 2&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Row 2, Col 1&lt;/td&gt;
+                &lt;td&gt;Row 2, Col 2&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    </pre>
+
+    <h2>HTML Forms</h2>
+    <pre>
+        &lt;form action="/submit_form" method="post"&gt;
+            &lt;label for="fname"&gt;First name:&lt;/label&gt;
+            &lt;input type="text" id="fname" name="fname"&gt;
+            &lt;br&gt;
+            &lt;label for="lname"&gt;Last name:&lt;/label&gt;
+            &lt;input type="text" id="lname" name="lname"&gt;
+            &lt;br&gt;
+            &lt;input type="submit" value="Submit"&gt;
+        &lt;/form&gt;
+    </pre>
+</body>
+</html>
