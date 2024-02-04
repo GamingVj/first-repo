@@ -1,4 +1,4 @@
-# It is used to find if the given number is prime or no
+"""# It is used to find if the given number is prime or no
 
 number = int(input("Enter a number.\n-->"))
 
@@ -18,3 +18,19 @@ if is_prime:
 
 else:
     print(f"{number} is not prime")
+"""
+# a = int(input("Enter a the 1st Number:\n-->"))
+# b = int(input("Enter the 2nd Number:\n-->"))
+#
+# sum = a + b
+#
+# print({a}, '+', {b}, "is equal to", [sum],)
+
+# a = int(input("Enter a the 1st Number:\n-->"))
+# b = int(input("Enter the 2nd Number:\n-->"))
+#
+# if a > b:
+#     print({a}, "is Greater than", {b})
+# else:
+#     print({b}, "is Greater than", {a})
+#
