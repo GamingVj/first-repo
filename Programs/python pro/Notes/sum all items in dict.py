@@ -1,3 +1,7 @@
+a = int(input("Enter the first number:\n-->"))
+b = int(input("Enter the second number:\n-->"))
+c = int(input("Enter the third number:\n-->"))
+
 # Function to print sum
 def returnSum(dict):
     sum = 0
@@ -7,5 +11,5 @@ def returnSum(dict):
     return sum
 
 # Driver Function
-dict = {'a': 100,'b': 200,'c': 300}
+dict = {'a': a,'b': b,'c': c}
 print("Sum :",returnSum(dict))
