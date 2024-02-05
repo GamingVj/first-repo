@@ -1,10 +1,5 @@
-def returnSum(dict):
-    sum = 0
-    for i in dict.values():
-        sum = sum + i
+num1 = 1.5
+num2 = 6.3
 
-    return sum
-
-# Driver Function
-dict = {'a': 100,'b': 200,'c': 300}
-print("Sum :",returnSum(dict))
+sum = num1 + num2
+print('The sum of {} and {} is {}'.format(num1, num2, sum))
