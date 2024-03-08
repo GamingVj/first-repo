@@ -34,3 +34,17 @@ else:
 # else:
 #     print({b}, "is Greater than", {a})
 #
+
+# i = 1
+# while True:
+#     if i%3 == 0:
+#         break 
+#     print(i)
+
+#     i += 1
+
+import re
+sentence = 'we are humans'
+matched = re.match(r'(,*) (.*?) (.*)', sentence)
+if matched:
+    print(matched.groups())
