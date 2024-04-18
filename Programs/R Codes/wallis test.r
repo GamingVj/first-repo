@@ -1,0 +1,1 @@
+kruskal.test(Ozone ~ Month, data = airquality)
