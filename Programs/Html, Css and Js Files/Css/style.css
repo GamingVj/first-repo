@@ -1,3 +1,53 @@
+:root{
+    --background: #07101e;
+    --primary: #95bce6;
+    --accent:#d2d345;
+    --text:#dde8f7;
+    --secondary:#903122;
+    background-color: var(--background);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: var(--text);
+}
+
+.flexbox-container{
+    display: flex;
+    column-gap: 30px;
+}
+
 .😀{
-    background-color: aqua;
+}
+
+
+h1{
+    color: var(--text);
+    text-align: center;
+    font-size: larger;
+}
+
+.newDiv{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+p{
+    color: var(--secondary);
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.soft{
+    text-indent: 15px;
+    padding: 3px;
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+
+.hard{
+    text-indent: 15px;
+    padding: 3px;
+    background-color: var(--primary);
+    border-radius: 10px;
 }
