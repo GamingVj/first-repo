@@ -26,6 +26,12 @@ h1{
     border-radius: 10px;
 }
 
+.para
+{
+    background-color: var(--primary);
+    border-radius: 5px;
+}
+
 p{
     color: var(--secondary);
     font-size: 20px;
