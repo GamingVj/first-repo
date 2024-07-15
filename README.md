@@ -9,4 +9,6 @@ You can see all the python projects in [Python Programs](https://github.com/Gami
 
 &
 
-All the html Projects will be uploaded on  this repository [Html Projects](https://github.com/GamingVj/first-repo/tree/8116db8ba2095fa4c1c62685ec52e3efd6c95804/Programs/Html%20Files)
+All the html Projects will be uploaded on this repository [Html Projects](https://github.com/GamingVj/first-repo/tree/main/Programs/Html%2C%20Css%20and%20Js%20Files)
+
+All the Java Projects will be uploaded on [Java Projects](https://github.com/GamingVj/first-repo/tree/main/Programs/Html%2C%20Css%20and%20Js%20Files)
