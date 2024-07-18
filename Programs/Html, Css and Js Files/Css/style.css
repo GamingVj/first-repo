@@ -1,9 +1,9 @@
 :root{
-    --background: #07101e;
-    --primary: #95bce6;
-    --accent:#d2d345;
-    --text:#dde8f7;
-    --secondary:#903122;
+    --background: #EFF9FE;
+    --primary: #E4F3FD;
+    --accent:#D3F850;
+    --text:#01131F;
+    --secondary:#FA987D;
     background-color: var(--background);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
@@ -43,13 +43,13 @@ p{
 .soft{
     text-indent: 15px;
     padding: 3px;
-    background-color: var(--primary);
+    background-color: var(--accent);
     border-radius: 10px;
 }
 
 .hard{
     text-indent: 15px;
     padding: 3px;
-    background-color: var(--primary);
+    background-color: var(--accent);
     border-radius: 10px;
 }
