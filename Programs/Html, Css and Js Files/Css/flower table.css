@@ -1,0 +1,84 @@
+root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+}
+td{
+    border: 2px solid black;
+}
+table{
+    border: 10px solid #cf4d4a;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #ba34eb;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+}
+th{
+    border: 3px solid black;
+    background-color: #aeeb34;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.L
+{
+    background-color: #e0958d;
+}
+
+.H
+{
+    background-color: #db3564;
+}
+
+.R
+{
+    background-color: #fc9403;
+}
+
+.Li
+{
+    background-color: #03f4fc;
+}
+
+.P
+{
+    background-color: #dfddca;
+}
+
+.J
+{
+    background-color: #dc8ada;
+}
+
+.D
+{
+    background-color: #8ad8dc;
+}
+
+.S
+{
+    background-color: #e5cd46;
+}
+
+.O
+{
+    background-color: #20a6d8;
+}
+
+.M
+{
+    background-color: #cfe3eb;
+}
+
+.Le
+{
+    background-color: #f91a03;
+}
+
