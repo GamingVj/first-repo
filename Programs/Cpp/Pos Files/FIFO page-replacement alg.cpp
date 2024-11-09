@@ -6,7 +6,7 @@ int main()
 {
     int reference_string[10],page_faults=0,m,s,n,pages=0,frames;
 
-    printf("Enter Toral Number of Pages:\t");
+    printf("Enter Total Number of Pages:\t");
     scanf("%d",&frames); 
 
     printf("Enter values of Reference String:\n");
