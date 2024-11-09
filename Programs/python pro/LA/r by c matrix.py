@@ -17,6 +17,7 @@ print(A)
 
 
 # b) Display M in matrix format.
+
 B = np.array ( [[1,1,2],
                 [2,6,7],
                 [3,6,7]])
@@ -24,6 +25,7 @@ print(B)
 
 
 # c) Display the row and columns of M for Matrix M-printing rows.
+
 M = [
     [1, 2, 3],
     [4, 5, 6],
