@@ -1,0 +1,10 @@
+DECLARE
+    TOTAL_SUM NUMBER:=0;
+BEGIN
+    FOR I IN 1..5 LOOP
+        TOTAL_SUM:=TOTAL_SUM+I;
+        DBMS_OUTPUT.PUT_LINE('i:'||I||'Total Sum:'||TOTAL_SUM);
+    END LOOP;
+
+    DBMS_OUTPUT.PUT_LINE('END of FOR loop.');
+END;
