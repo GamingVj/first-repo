@@ -2,6 +2,62 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Display_lenght_breath",
+      "request": "launch",
+      "mainClass": "Display_lenght_breath",
+      "projectName": "first-repo_11b5b76f"
+    },
+    {
+      "type": "java",
+      "name": "accepting_square",
+      "request": "launch",
+      "mainClass": "accepting_square",
+      "projectName": "first-repo_11b5b76f"
+    },
+    {
+      "type": "java",
+      "name": "square",
+      "request": "launch",
+      "mainClass": "square",
+      "projectName": "first-repo_11b5b76f"
+    },
+    {
+      "type": "java",
+      "name": "AbstractClassAndMethodsExample",
+      "request": "launch",
+      "mainClass": "AbstractClassAndMethodsExample",
+      "projectName": "first-repo_11b5b76f"
+    },
+    {
+      "type": "java",
+      "name": "ConstructorOverloading",
+      "request": "launch",
+      "mainClass": "ConstructorOverloading",
+      "projectName": "first-repo_11b5b76f"
+    },
+    {
+      "type": "java",
+      "name": "MethodOverloading",
+      "request": "launch",
+      "mainClass": "MethodOverloading",
+      "projectName": "first-repo_11b5b76f"
+    },
+    {
+      "type": "java",
+      "name": "helloworld",
+      "request": "launch",
+      "mainClass": "helloworld",
+      "projectName": "first-repo_11b5b76f"
+    },
+    {
+      "type": "java",
+      "name": "HelloWorld",
+      "request": "launch",
+      "mainClass": "HelloWorld",
+      "projectName": "first-repo_11b5b76f"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
