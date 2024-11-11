@@ -1,5 +1,3 @@
-// Write a program to demonstrate the method of list interface, set of interface of map.
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.HashMap;
@@ -17,16 +15,10 @@ public class CollectionInterface {
         list.add("Cherry");
         list.add("Apple"); // List allows duplicate elements
 
-        System.out.println("List elements:");
-        for (String element : list) {
-            System.out.println(element);
-        }
+        System.out.println("List elements: " + list);
 
         list.remove("Banana");
-        System.out.println("\nList after removing 'Banana':");
-        for (String element : list) {
-            System.out.println(element);
-        }
+        System.out.println("List after removing 'Banana': " + list);
 
         // Demonstrating Set interface
         Set<String> set = new HashSet<>();
@@ -35,16 +27,10 @@ public class CollectionInterface {
         set.add("Cherry");
         set.add("Apple"); // Set does not allow duplicate elements
 
-        System.out.println("\nSet elements:");
-        for (String element : set) {
-            System.out.println(element);
-        }
+        System.out.println("Set elements: " + set);
 
         set.remove("Banana");
-        System.out.println("\nSet after removing 'Banana':");
-        for (String element : set) {
-            System.out.println(element);
-        }
+        System.out.println("Set after removing 'Banana': " + set);
 
         // Demonstrating Map interface
         Map<String, Integer> map = new HashMap<>();
@@ -53,15 +39,9 @@ public class CollectionInterface {
         map.put("Cherry", 3);
         map.put("Apple", 4); // Map allows duplicate keys, but the value will be updated
 
-        System.out.println("\nMap elements:");
-        for (Map.Entry<String, Integer> entry : map.entrySet()) {
-            System.out.println(entry.getKey() + ": " + entry.getValue());
-        }
+        System.out.println("Map elements: " + map);
 
         map.remove("Banana");
-        System.out.println("\nMap after removing 'Banana':");
-        for (Map.Entry<String, Integer> entry : map.entrySet()) {
-            System.out.println(entry.getKey() + ": " + entry.getValue());
-        }
+        System.out.println("Map after removing 'Banana': " + map);
     }
 }
