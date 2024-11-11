@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CollectionInterface",
+      "request": "launch",
+      "mainClass": "CollectionInterface",
+      "projectName": "first-repo_11b5b76f"
+    },
+    {
+      "type": "java",
       "name": "ExceptionHandling",
       "request": "launch",
       "mainClass": "ExceptionHandling",
