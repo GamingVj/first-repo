@@ -1,4 +1,4 @@
-// Write a program to display volume of sphere and hemisphere make use of interface.
+// Write a program to display the volume of the sphere and hemisphere and make use of the interface.
 
 interface Volume {
     // Method to calculate volume

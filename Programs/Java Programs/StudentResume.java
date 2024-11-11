@@ -1,4 +1,4 @@
-// Write a program various string components design a java application to accept student resume.
+// Write a program with various string components to design a java application to accept student resumes.
 
 
 import java.util.*;
