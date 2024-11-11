@@ -1,3 +1,6 @@
+// Write a program to demonstrate the method of list interface, set of interface of map.
+
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.HashMap;
