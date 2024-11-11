@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ExceptionHandling",
+      "request": "launch",
+      "mainClass": "ExceptionHandling",
+      "projectName": "first-repo_11b5b76f"
+    },
+    {
+      "type": "java",
+      "name": "VolumeCalculator",
+      "request": "launch",
+      "mainClass": "VolumeCalculator",
+      "projectName": "first-repo_11b5b76f"
+    },
+    {
+      "type": "java",
       "name": "Display_lenght_breath",
       "request": "launch",
       "mainClass": "Display_lenght_breath",
@@ -64,8 +78,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/gamin/OneDrive/Documents/GitHub/first-repo",
+      "program": "c:/Users/gamin/OneDrive/Documents/GitHub/first-repo/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

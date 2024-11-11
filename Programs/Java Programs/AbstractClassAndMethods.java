@@ -34,7 +34,7 @@ class Bird extends abstract_class {
     }
 }
 
-public class AbstractClassAndMethodsExample {
+public class AbstractClassAndMethods {
     public static void main(String[] args) {
         // Creating instances of Dog and Bird
         abstract_class dog = new Dog();
