@@ -1,2 +1,0 @@
-name=Vijay
-Salary=20000.000000
