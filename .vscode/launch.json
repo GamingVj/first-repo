@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MyClass",
+      "request": "launch",
+      "mainClass": "MyClass",
+      "projectName": "first-repo_11b5b76f"
+    },
+    {
+      "type": "java",
       "name": "StudentResume",
       "request": "launch",
       "mainClass": "StudentResume",
@@ -92,8 +99,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/gamin/OneDrive/Documents/GitHub/first-repo",
-      "program": "c:/Users/gamin/OneDrive/Documents/GitHub/first-repo/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
