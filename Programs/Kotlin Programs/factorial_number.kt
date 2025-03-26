@@ -1,7 +1,7 @@
 //Write a kotlin program for factorial of number.
 
 fun main(){
-	println("Enter a nmber to find it's factorial:")
+	println("Enter a number to find it's factorial:")
 
 	val number = readLine()!!.toInt()
 
