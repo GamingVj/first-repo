@@ -32,5 +32,6 @@ public class StudentResume {
         System.out.println("Education: " + education);
         System.out.println("Skills: " + skills);
         System.out.println("Experience: " + experience);
+        Scanner.close();
     }
 }
