@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../Css/forms style.css">
+    <title>Registrations form</title>
+    <!-- <style>
+         body {
+            #yo{
+                text-align: center;
+                align : center;
+                color: white;
+                background-color: black;
+                padding-left: 200px;
+                padding-right: 200px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                border-radius: 20px;
+            }
+            
+            
+            #form-container {
+                border-radius: 20px;
+                width: 300px;
+                margin: auto;
+                padding-left: 30px;
+                padding-right: 200px;
+                padding-top: 100px;
+                padding-bottom: 200px;
+                background-color: aqua;
+            }
+        }       
+    </style> -->
+</head>
+<body>
+    <div id="yo" style="width: 495px; margin: auto;">
+        <h1>Student Registration</h1>
+    </div>
+    <br>
+    <div id="form-container" style="width: 490px; margin: auto;">
+        <form >
+            <label for="name">Name:</label>
+            <input type="text" id = "name"  name = "name" required placeholder="Enter Your Name" >
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id = "email" name = "email" required>
+            <br><br>
+
+            <label for = "Password" id = "pass" name = "Password">Password</label>
+            <input type = "password" id = "Password" name = "Password" required>
+            <br><br>
+
+            <label for = "Educaiton" id = "edu" name = "Educaiton">Educaiton</label><br>
+            <input type = "checkbox" name = "Educaiton" required>Phd<br>
+            <input type = "checkbox" name = "Educaiton" required>Diploma<br>
+            <input type = "checkbox" name = "Educaiton" required>Phd<br>
+            
+            <br><br>
+
+            <label for = "gender" id = "gen" name = "Gender">Gender</label><br>
+            <input type = "radio" name = "gender" required>Male<br>
+            <input type = "radio" name = "gender" required>Female<br>
+            <input type = "radio" name = "gender" required>Other<br>
+            <br><br>
+
+            <label for="bdate">Birthdate:</label>
+            <input type="date" id="bdate" name="bdate" required>
+            <br><br>
+
+            <label for="courses">Courses:</label>
+            <select name = "courses" palceholder="Select Course" required>
+                <option value="" disabled selected>Select Your Course</option>
+                <option value="FSD">Full Stack Development</option>
+                <option value="FSP">Full Stack Python</option>
+                <option value="DS">Data Structure</option>
+            </select>
+            <br><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
