@@ -1,7 +1,7 @@
 body {
     #yo{
         text-align: center;
-        align : center;
+        box-align: center;
         color: white;
         background-color: black;
         padding-left: 200px;
