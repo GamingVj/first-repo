@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #nav{
+            display: inline-block;
+            border-left: 2px solid black;
+            padding-left: 5px;
+        }
+        #profile-pic{
+            height: 150px;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="home">Vijay Ingale</h1>
+    <h3>Aspiring Full Stack Developer</h3><hr>
+    <div class="navigation">
+        <div id="nav"><a href="#home">Home</a></div>
+        <div id="nav"><a href="#about">About Me</a></div>
+        <div id="nav"><a href="#projects">Projects</a></div>
+        <div id="nav"><a href="#contacts">Contacts</a></div>
+    </div>
+    <hr>
+    <h2 id="about">About Me</h2>
+    <img id="profile-pic" src="../../../../assets/pro pic.jpg" alt="">
+    <p>
+        Hello! I'm Vijay Ingale, a tech enthusiast with a passion for web development. I love building responsive and user-friendly websites.
+    </p>
+
+    <h2 id="skills">Skills:</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Spring Boot</li>
+    </ul>
+    <div>
+        <h2 id="projects">My Projects</h2>
+        <div>
+            <h3>Project 1: Pet Store App</h3>
+            <p>A web application to manage pets and adoption requests.</p>
+            <a href="">View Project</a>
+        </div>
+        <div>
+            <h3>Project 2: Portfolio Website</h3>
+            <p>A personal website showcasing my skills and projects.</p>
+            <a href="">View Project</a>
+        </div>
+    </div>
+    <hr>
+    <h2 id="contacts">Contact Me</h2>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <br><br>
+
+    <label for="text">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your message here..."></textarea>
+    <br><br>
+</body>
+</html>
