@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+            height: 600px;
+            flex-wrap: nowrap;
+        }
+
+        .item{
+            width: 200px;
+            height: 150px;
+            margin: 0 20px 0 20px;
+            border: 2px solid black;
+            border-radius: 15px;
+            background-color: aqua;
+            text-align: center;
+            align-content: center;
+            
+        }
+
+        .gro:hover{
+            flex-grow: 1;
+            background-color:aquamarine;
+        }
+
+        .shr:hover{
+            flex-shrink: 2;
+            background-color: blueviolet;
+            align-self: center;
+            height: 20px;
+            height: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item gro">First</div>
+        <div class="item gro">Second</div>
+        <div class="item shr">Third</div>
+        <div class="item shr">Fourth</div>
+
+    </div>
+</body>
+</html>

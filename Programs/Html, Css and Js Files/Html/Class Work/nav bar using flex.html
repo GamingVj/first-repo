@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+
+        nav{
+            display: flex;
+            height: 80px;
+            background-color: aquamarine;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav ul{
+            display: flex;
+            padding: 0 20px 0 20px;
+            /* border: 2px solid black; */
+            width: 500px;
+        }
+
+        nav ul li{
+            margin: 25px;
+        }
+        
+        li{
+            align-content: space-evenly;
+            justify-content: space-between;
+        }
+
+        .logo{
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+            <a href="#">Space</a>
+            <ul type="none">
+                <li><a href="#" class="logo">Home</a></li><hr>
+                <li><a href="#" class="logo">Explore</a></li><hr>
+                <li><a href="#" class="logo">Services</a></li>
+            </ul>
+    </nav>
+</body>
+</html>
