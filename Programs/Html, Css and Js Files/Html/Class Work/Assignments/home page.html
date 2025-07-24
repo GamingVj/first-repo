@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <style>
+        :root {
+            --primary-color: #879f73;
+            --secondary-color: #b1c8af;
+            --backgorund-color: #f7f9f6;
+            --text-color: #080a07;
+            --accent-color: #8cb08e;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--backgorund-color);
+        }
+
+        nav a img{
+            border-radius: 50%;
+            margin-left: 20px;
+            margin-right: 20px; 
+            padding-top: 5px;
+            justify-content: center;
+            ;
+        }
+
+        nav{
+            display: flex;
+            height: 80px;
+            background-color: var(--text-color);
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+
+        nav ul{
+            display: flex;
+            padding: 0 20px 0 20px;
+            /* border: 2px solid black; */
+            width: 500px;
+        }
+
+        nav ul li{
+            margin: 25px;
+            color: var(--text-color);
+        }
+        
+        li{
+            align-content: space-evenly;
+            justify-content: space-between;
+        }
+
+        .logo{
+            font-size: 25px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .content{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+            /* padding: 80px 20px 80px 20px; */
+            /* border: 2px solid black; */
+        }
+
+        .content .item{
+            width: 300px;
+            height: 200px;
+            border: 2px solid blue;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            margin: 10px;
+            color: var(--text-color);
+            background-color: var(--primary-color);
+        }
+
+        #wel{
+            text-align: center;
+            color: var(--text-color);
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: ;
+        }
+        header{
+            text-align: center;
+            margin-top: 20px;
+            color: var(--text-color);
+        }
+        footer{
+            background-color: var(--secondary-color);
+            padding: 10px;
+            text-align: center;
+            color: var(--text-color);
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .res1{
+            width: 100%;
+            height: 500px;
+            background-image: url("../../../../assets/one-piece-title-wbg2f7sm18m86ryk.webp");
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+        }
+        .res2{
+            width: 100%;
+            height: 500px;
+            background-image: url("../../../../assets/140306-1920x1200-desktop-hd-fight-club-background-image.jpg");
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+        }
+        .res3{
+            width: 100%;
+            height: 500px;
+            background-image: url("../../../../assets/one-piece-title-wbg2f7sm18m86ryk.webp");
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+        }
+        .res4{
+            width: 100%;
+            height: 500px;
+            background-image: url("../../../../assets/one-piece-title-wbg2f7sm18m86ryk.webp");
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+        }
+        .res5{
+            width: 100%;
+            height: 500px;
+            background-image: url("../../../../assets/one-piece-title-wbg2f7sm18m86ryk.webp");
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+            <a href="#"><img src="../../../../assets/pro pic.jpg" alt="Proflie" width="60x" height="60px"></a>
+            <ul type="none">
+                <li><a href="#" class="logo">Home</a></li><hr>
+                <li><a href="#" class="logo">Explore</a></li><hr>
+                <li><a href="#" class="logo">Services</a></li>
+            </ul>
+    </nav>
+
+    <header>
+        <h1 id="wel">Welcome to Our Website</h1>
+    </header>
+    <div class="content">
+        <div class="item"><a href="#" alt="Anime page">Anime</a></div>
+        <div class="item"><a href="#" alt="Movie page">Movie</a></div>
+        <div class="item"><a href="#" alt="Tv Shows page">Tv Shows</a></div>
+        <div class="item"><a href="#" alt="All page">All</a></div>
+    </div>
+    <h2 style="text-align: center; color: var(--text-color);">Featured Content</h2>
+    <div class="content Cont">
+        <div class="item res res1"><a href="https://aniwatchtv.to/one-piece-100" alt="One Peice"><img src="../../../../assets/one-piece-title-wbg2f7sm18m86ryk.webp" alt="One Peice"></a></div>
+        <div class="item res res2"><a href="https://actvid.rs/watch-movie/watch-fight-club-full-19651.5297485" alt="Fight Club"><img src="../../../../assets/140306-1920x1200-desktop-hd-fight-club-background-image.jpg" alt="Fight Club" width="100%" height="100%"></a></div>
+        <div class="item res res3"><a href="#" alt="Tv Shows page"></a></div>
+        <div class="item res res4"><a href="#" alt="All page"></a></div>
+        <div class="item res res5"><a href="#" alt="All page"></a></div>
+    </div>
+    
+    
+    <footer>
+        <p style="text-align: center; color: var(--text-color);">© 2025 Gaming Vj. All rights reserved.</p>
+    </footer>
+</body>
+</html>
