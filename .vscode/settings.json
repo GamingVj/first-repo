@@ -63,5 +63,6 @@
     "*.rmd": "markdown",
     "*.css": "css",
     "iostream": "cpp"
-  }
+  },
+  "livePreview.defaultPreviewPath": "/Programs/Html, Css and Js Files/Html/Class Work/Assignments/gird.html"
 }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-areas: "header header header header header"
+                                "sidebar main main main main"
+                                "sidebar main main main main"
+                                "footer footer footer footer footer";
+            grid-template-rows: 100px 250px 100px 100px;
+            
+        }
+
+        .header{
+            grid-area: header;
+            background-color:blueviolet;
+        }
+
+        .sidebar{
+            grid-area: sidebar;
+            background-color: aqua;
+        }
+
+        .main{
+            grid-area: main ;
+            background-color: aquamarine;
+        }
+
+        .foot{
+            grid-area: footer;
+            background-color:chartreuse;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item header">Daily News</div>
+        <div class="item sidebar"><b>Sections</b>
+            <ul type="none">
+                <li>Health</li>
+                <li>Technology</li>
+                <li>Politics</li>
+            </ul>
+        </div>
+        <div class="item main"><dl>
+            <h2><dh> New Space Telescops Launched</dh></h2>
+            <dd>The international space agnecy has launched a new telescope that will explore the farthest galaxies ever seen...</dd>
+            <h2><dh> Advancements in AI</dh></h2>
+            <dd>Researchers reveal a new AI model that cn learn human emotions through facial expressions and gestures...</dd>
+        </dl></div>
+        <div class="item foot">Footer</div>
+    </div>
+</body>
+</html>
