@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let pay = prompt("Enter the Payment Type UPI/Wallet/Credit Card/Debit Card:");
+
+        switch(pay)
+        {
+            case "UPI", "upi", "Upi":
+                document.write("You have selected UPI payment.");
+                break;
+            
+            case "Wallet":
+                document.write("You have selected Wallet payment.");
+                break;
+
+            case "Debit Card":
+                document.write("You have selected Debit Card payment.");
+                break;
+
+            case "Credit Card":
+                document.write("You have selected Credit Card payment.");
+                break;
+
+            default:
+                document.write("Invalid payment type selected.");
+        }
+    </script>
+</body>
+</html>
