@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <script>
+       do
+       {
+            var option=parseInt(prompt("Enter 1 for Addition, 2 for Subtraction, 0 to Exit:"));
+            if(option==0)
+                {
+                    break;
+                }
+
+                switch(option)
+                {
+                        case 1:
+                            var a=parseInt(prompt("Enter your First Number:"));
+                            var b=parseInt(prompt("Enter your second Number:"));
+                            document.write("<h1>Addition of " + a + " and " + b + " is: " + (a+b) + "</h1>");
+                            break;
+                        case 2:
+                            var c=parseInt(prompt("Enter your First Number:"));
+                            var d=parseInt(prompt("Enter your second Number:"));
+                            document.write("<h1>Subtraction of " + c + " and " + d + " is: " + (c-d) + "</h1>");
+                            break;
+                }
+            var again = prompt("Do you want to perform another operation? (yes/no)");
+        
+       } while (again.toLowerCase() === 'yes'); 
+    </script>
+</body>
+</html>

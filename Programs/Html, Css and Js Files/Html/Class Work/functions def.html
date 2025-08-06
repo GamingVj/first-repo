@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function yo(name,fname)
+        {
+            document.write("Hello ",name,", What Up!","<br>Hello ",name," Friend ",fname,", What Up!<br>");
+        }
+        yo(prompt("Enter your name:"),prompt("Enter your friend's name:"));
+
+        // const Hello= function(name,fname)
+        // {
+        //     document.write("Hello ",name,", What Up!","<br>Hello ",name," Friend ",fname,", What Up!<br>");
+        // }
+        // Hello(prompt("Enter your name:"),prompt("Enter your friend's name:"));
+
+        var increment = 5000;
+        function calculateSalary(salary)
+        {
+            document.write(salary*12+increment,"<br>");
+        }
+
+        calculateSalary(20000,"<br>");
+        increment = 10000;
+        calculateSalary(20000,"<br>");
+        increment = 15000;
+        calculateSalary(20000,"<br>");
+
+        function repeat(action,time)
+        {
+            for (let i=0 ; i<time;i++)
+            {
+                action();
+            }
+        }
+
+        function sayHello()
+        {
+            document.write("Hello World!<br>");
+        }
+
+        repeat(sayHello,5);
+
+        function sup(name)
+        {
+            return `Hello ${name}, What Up!`;
+        }
+        document.write(sup(prompt("Enter your name:")),"<br>");
+
+    </script>
+</body>
+</html>

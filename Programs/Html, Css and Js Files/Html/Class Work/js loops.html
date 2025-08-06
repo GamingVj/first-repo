@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <script>
+        document.write("<h1>Loops in JavaScript</h1>")
+        
+    document.write("<hr>")
+        document.write("For Loop")
+        document.write("<hr>")
+
+        document.write("<br><br>Numbers from 1 to 10")
+        for(var i= 1; i<=10;i++)
+    {
+        document.write("<br>",i)
+    }
+
+    document.write("<br><br>Numbers in reverse 1 to 10")
+        for(var b= 10; b>=1;b--)
+    {
+        document.write("<br>",b)
+    }
+
+    document.write("<br><br>Even Numbers")
+        for(var c= 1; c<=20;c+=2)
+    {
+        document.write("<br>",c)
+    }
+    
+    document.write("<br><br>Odd Numbers")
+        for(var d= 2; d<=20;d+=2)
+    {
+        document.write("<br>",d)
+    }
+
+    document.write("<br><br>Prompt sum")
+    sum=0;
+    var num=parseInt(prompt("Enter a number (0 to stop):"));
+        for(; num!=0;)
+    {
+        sum=sum+num;
+        num=parseInt(prompt("Enter a number (0 to stop):"));
+    }
+    console.log("Current sum: " ,sum);
+    document.write("<br>Current sum: ",sum);
+
+    document.write("<br>")
+    document.write("<br>")
+    document.write("<hr>")
+
+    document.write("While Loop<br>")
+    document.write("<hr>")
+
+    document.write("<br><br>Numbers from 1 to 10 using while loop")
+    var k=1;
+    while(k<=10)
+    {
+        document.write("<br>",k);
+        k++;
+    }
+
+    document.write("<br><br>Even Numbers using while loop")
+    k=2;
+    while(k<=10)
+    {
+        document.write("<br>",k);
+        k+=2;
+    }
+
+    document.write("<br><br>Odd Numbers using while loop")
+    k=1;
+    while(k<=10)
+    {
+        document.write("<br>",k);
+        k+=2;
+    }
+
+    document.write("<br><br>Sum of numbers using while loop")
+    var k=1; sum=0;
+    var num=parseInt(prompt("Enter a value (0 to stop):"));
+    while(num!=0)
+    {
+        sum=sum+num;
+        num=parseInt(prompt("Enter a value (0 to stop):"));
+    }
+    console.log("Current sum: " ,sum);
+    document.write("<br>Current sum: ",sum);
+    
+    </script>
+</body>
+</html>
