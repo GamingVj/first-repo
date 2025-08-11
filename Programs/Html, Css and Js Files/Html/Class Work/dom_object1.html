@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo">Hello, World</div>
+    <button onclick="changeStyle()"> Click here</button>
+    
+    <p>First Paragraph</p>
+    <p>Second Paragraph</p>
+
+    <div class="example">This is a div</div>
+    <button onclick="alert('Button Clicked!')">Click Me</button>
+    <p class="item">Item 1</p>
+    <p class="item">Item 2</p>
+    <p class="highlight">This is a First Paragraph</p>
+    <p>This is a Second Paragraph</p>
+
+    <button id="myButton">Click Me!</button>
+
+    <input type="text" name="uname" value="John Doe"><br>
+    Enter Your Name:<input type="text" id="fname" onkeyup="myFunction()"/>
+
+    <script>
+        function changeStyle() {
+            var element=document.getElementById("demo")
+            element.style.color="blue"
+        }
+
+        var paragraphs=document.getElementsByTagName("p");
+        paragraphs[0].style.color="green";
+        paragraphs[0].style.fontSize="22px";
+        paragraphs[0].style.fontWeight="bold";
+        paragraphs[1].style.color="blue";
+
+        var div = document.querySelector(".example");
+        div.style.color="green";
+
+        var items = document.querySelectorAll(".item");
+        items.forEach(item => {
+            item.style.color = "red";
+        });
+
+        let newDiv = document.createElement("div");
+        newDiv.textContent="This is a new div!";
+        newDiv.className="my-class";
+
+        document.body.appendChild(newDiv);
+
+        //highligh element using 'getElement.byClassName' example
+
+        const elements = document.getElementsByClassName("highlight");
+        elements[0].style.color = "orange";
+
+        let element = document.getElementsByName("uname")[0];
+        console.log(element.value);
+
+        function myFunction() 
+        {
+            let x=document.getElementById('fname');
+            x.value=x.value.toUpperCase();
+        }
+
+        const button=document.getElementById("myButton");
+        button.addEventListener("click",()=>{alert("Button Clicked!")})
+    </script>
+</body>
+</html>
