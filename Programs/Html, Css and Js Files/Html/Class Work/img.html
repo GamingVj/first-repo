@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Javascript</title>
+</head>
+<body>
+    <img id="myImage" src="../../../assets/art 1.png" alt="Sample Image" style="width:300px;height:300px;">
+    <button onclick="changeImage()">Change Image</button>
+
+    <script>
+        function changeImage() {
+            let myImage = document.getElementById("myImage");
+            myImage.setAttribute("src", "../../../assets/art 2.png");
+        }
+    </script>
+</body>
+</html>
