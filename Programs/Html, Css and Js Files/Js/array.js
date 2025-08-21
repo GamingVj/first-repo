@@ -27,6 +27,7 @@ num = [10,20,30,40,50,60,40,50,40,60,80]
 let ex2_num=num.filter(n=>n==40||n==50)
 console.log(ex2_num)
 
+//Give the sum of all values using accumalator
 const result=arr.reduce((sum, n) => sum + n);
 console.log(result);
 
@@ -34,10 +35,12 @@ for (let i = 0;i<arr.length;i++) {
   console.log(arr[i]);
 }
 
+//Return the elements of the array
 for (let n of arr) {
   console.log(n);
 }
 
+//Return the index number of array elements
 for (let index in arr) {
   console.log(index);
 }
