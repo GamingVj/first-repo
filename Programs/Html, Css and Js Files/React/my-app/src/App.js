@@ -7,6 +7,8 @@ import UseStateData from './UseState/UseStateData';
 import { UseStateCounter } from './UseState/UseStateCounter';
 import React from 'react';
 import UseStateWithArrayOfObjects from './UseState/UseStateWithArrayOfObjects';
+import UseEffectGithubUsers from './UseEffect/UseEffectGithubUsers';
+import ControlledInputForms from './Forms/ControlledInputForms';
 
 
 function App() {
@@ -22,6 +24,10 @@ function App() {
       <UseStateCounter />
       <h2>This is UseState with Array of Objects</h2>
       <UseStateWithArrayOfObjects />
+      <h2>This is UseEffect with Github Users</h2>
+      <UseEffectGithubUsers />
+      <h2>This is Controlled Input Forms</h2>
+      <ControlledInputForms />
       
 
     </div>

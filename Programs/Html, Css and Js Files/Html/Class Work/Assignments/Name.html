@@ -1,0 +1,19 @@
+<form id="nameForm">
+  <label>First Name</label><br>
+  <input type="text" id="firstName"><br><br>
+  <label>Last Name</label><br>
+  <input type="text" id="lastName"><br><br>
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+function getNames(event) {
+  event.preventDefault(); // Prevent form from submitting/reloading
+  var first = document.getElementById("firstName").value;
+  var last = document.getElementById("lastName").value;
+  console.log("First Name:", first);
+  console.log("Last Name:", last);
+}
+
+document.getElementById("nameForm").addEventListener("submit", getNames);
+</script>
