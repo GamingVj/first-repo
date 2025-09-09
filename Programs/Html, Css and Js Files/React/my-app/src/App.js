@@ -9,11 +9,24 @@ import React from 'react';
 import UseStateWithArrayOfObjects from './UseState/UseStateWithArrayOfObjects';
 import UseEffectGithubUsers from './UseEffect/UseEffectGithubUsers';
 import ControlledInputForms from './Forms/ControlledInputForms';
-
+import MultipleForm from './Forms/MultipleForm';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Routing/Home';
+import Main from './Routing/Main';
+import About from './Routing/About';
 
 function App() {
   return (
     <div className="App">
+
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Main/>}>
+          <Route path='/home' element={<Home/>}/>
+          <Route path='/about' element={<About/>}/>
+        </Route>
+        </Routes>
+        </BrowserRouter>
       {/* <Booklist /> */}
       <h2>This is without using map </h2>
       <BookList2 />
@@ -28,6 +41,8 @@ function App() {
       <UseEffectGithubUsers />
       <h2>This is Controlled Input Forms</h2>
       <ControlledInputForms />
+      <h2>This is Multiple Input Forms</h2>
+      <MultipleForm />
       
 
     </div>
