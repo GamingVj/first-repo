@@ -15,6 +15,8 @@ import Home from './Routing/Home';
 import Main from './Routing/Main';
 import About from './Routing/About';
 
+import Product from './Routing/Product';
+
 function App() {
   return (
     <div className="App">
@@ -43,6 +45,8 @@ function App() {
       <ControlledInputForms />
       <h2>This is Multiple Input Forms</h2>
       <MultipleForm />
+      <h2>This is React Routing</h2>
+      <Product />
       
 
     </div>
