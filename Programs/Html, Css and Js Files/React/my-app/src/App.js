@@ -20,6 +20,8 @@ import { useState } from 'react';
 import Product from './Routing/Product';
 import SingleProduct from './Routing/SingleProduct';
 import { PropDrilling } from './PropDrilling/PropDrilling';
+import { ContextBook } from './PropDrilling/ContextBook';
+import { ReducerCounter } from './Reducer/ReducerCounter';
 
 function App() {
   var [user, setUser] = useState({ fname: '', email: '' });
@@ -56,6 +58,8 @@ function App() {
       <MultipleForm />
       <h2>This is React Routing</h2>
       <PropDrilling/>
+      <ContextBook/>
+      <ReducerCounter/>
       {/* <Product /> */}
     </div>
   );
