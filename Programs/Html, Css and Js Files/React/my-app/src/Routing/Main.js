@@ -7,6 +7,8 @@ const Main = () => {
         <Link to="/">Main</Link>
         <Link to="/home">Home</Link>
         <Link to="/about">About</Link>
+        <Link to="/product">Product</Link>
+
         <Outlet/>
     </div>
   )
