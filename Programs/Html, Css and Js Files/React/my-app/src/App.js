@@ -22,6 +22,9 @@ import SingleProduct from './Routing/SingleProduct';
 import { PropDrilling } from './PropDrilling/PropDrilling';
 import { ContextBook } from './PropDrilling/ContextBook';
 import { ReducerCounter } from './Reducer/ReducerCounter';
+import { UseRefHook } from './UseRefHook/UseRefHook';
+import {Hero} from './Hero'
+import {ErrorBoundary} from './ErrorBoudary';
 
 function App() {
   var [user, setUser] = useState({ fname: '', email: '' });
@@ -60,6 +63,8 @@ function App() {
       <PropDrilling/>
       <ContextBook/>
       <ReducerCounter/>
+      <UseRefHook/>
+      <ErrorBoundary><Hero heroname='Joker'/></ErrorBoundary>
       {/* <Product /> */}
     </div>
   );

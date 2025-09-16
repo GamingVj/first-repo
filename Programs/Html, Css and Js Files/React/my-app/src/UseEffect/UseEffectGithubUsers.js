@@ -21,16 +21,16 @@ const UseEffectGithubUsers = () => {
             </tr>
         </thead>
         <tbody>
-            {
-                results.map((user) => (
-                    <tr key={user.id}>
-                        <td>{user.id}</td>
-                        <td>{user.login}</td>
-                        <td><img src={user.avatar_url} alt={user.login} width="50" /></td>
-                        <td><a href={user.html_url} target="_blank" rel="noopener noreferrer">Profile</a></td>
-                    </tr>
-                ))
-            }
+      {
+        Array.isArray(results) && results.map((user) => (
+          <tr key={user.id}>
+            <td>{user.id}</td>
+            <td>{user.login}</td>
+            <td><img src={user.avatar_url} alt={user.login} width="50" /></td>
+            <td><a href={user.html_url} target="_blank" rel="noopener noreferrer">Profile</a></td>
+          </tr>
+        ))
+      }
         </tbody>
       </table>
     </div>
